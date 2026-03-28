@@ -1,0 +1,15 @@
+{
+  "name": "麦伸ぬーどる",
+  "description": "帯広市の深夜営業ラーメン・餃子店。札幌麦伸堂直送の麺使用。",
+  "url": "https://muginobi-noodle.ezoai.jp",
+  "provider": {
+    "organization": "EZOAI",
+    "url": "https://ezoai.jp"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": ["text"],
+  "defaultOutputModes": ["text"]
+}
