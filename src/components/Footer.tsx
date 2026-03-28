@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0A0A0A] border-t border-white/5 py-12">
+    <footer className="bg-black border-t border-white/5 py-12">
       <div className="max-w-4xl mx-auto px-6 text-center">
         <p className="font-[family-name:var(--font-dela-gothic)] text-lg text-[#E63946]/40 tracking-[0.15em] mb-4">
           麦伸ぬーどる

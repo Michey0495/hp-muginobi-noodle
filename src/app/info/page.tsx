@@ -16,6 +16,7 @@ export default function InfoPage() {
       <Navigation />
       <main>
         <div className="pt-24" />
+        <h1 className="sr-only">麦伸ぬーどる 店舗情報</h1>
         <ShopInfo />
         <Hours />
         <PhoneCTA />

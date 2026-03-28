@@ -2,7 +2,7 @@
 
 export default function Loading() {
   return (
-    <div className="loading-screen-exit fixed inset-0 z-[100] bg-[#0A0A0A] flex flex-col items-center justify-center">
+    <div className="loading-screen-exit fixed inset-0 z-[100] bg-black flex flex-col items-center justify-center">
       {/* Steam animation */}
       <div className="flex gap-3 mb-8">
         <div className="steam-line w-1 h-8 bg-[#E63946]/60 rounded-full" />

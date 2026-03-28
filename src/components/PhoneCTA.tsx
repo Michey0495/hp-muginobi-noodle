@@ -22,7 +22,7 @@ export default function PhoneCTA() {
   return (
     <section
       ref={ref}
-      className="relative bg-gradient-to-b from-[#0A0A0A] to-[#141414] py-24 md:py-32"
+      className="relative bg-gradient-to-b from-black to-[#141414] py-24 md:py-32"
     >
       <div className="cta-inner reveal max-w-2xl mx-auto px-6 text-center">
         {/* Accent */}

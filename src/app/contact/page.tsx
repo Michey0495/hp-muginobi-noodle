@@ -15,6 +15,7 @@ export default function ContactPage() {
       <Navigation />
       <main>
         <div className="pt-24" />
+        <h1 className="sr-only">麦伸ぬーどる お問い合わせ</h1>
         <PhoneCTA />
         <ShopInfo />
       </main>

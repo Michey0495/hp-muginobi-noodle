@@ -34,7 +34,7 @@ export default function Navigation() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-[#0A0A0A]/95 backdrop-blur-md shadow-lg shadow-black/40"
+          ? "bg-black/95 backdrop-blur-md shadow-lg shadow-black/40"
           : "bg-transparent"
       }`}
     >
@@ -95,7 +95,7 @@ export default function Navigation() {
       {/* Mobile overlay */}
       {menuOpen && (
         <div
-          className="fixed inset-0 bg-[#0A0A0A]/98 backdrop-blur-lg z-50 flex flex-col items-center justify-center gap-10"
+          className="fixed inset-0 bg-black/98 backdrop-blur-lg z-50 flex flex-col items-center justify-center gap-10"
           style={{ animation: "slide-in 0.3s ease-out" }}
         >
           <Link

@@ -15,6 +15,7 @@ export default function MenuPage() {
       <Navigation />
       <main>
         <div className="pt-24" />
+        <h1 className="sr-only">麦伸ぬーどる メニュー</h1>
         <MenuSection />
         <PhoneCTA />
       </main>

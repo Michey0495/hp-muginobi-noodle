@@ -25,7 +25,7 @@ export default function Concept() {
   }, []);
 
   return (
-    <section className="relative bg-[#0A0A0A] py-24 md:py-32 overflow-hidden">
+    <section className="relative bg-black py-24 md:py-32 overflow-hidden">
       <div className="max-w-4xl mx-auto px-6 md:px-12">
         {/* Section title */}
         <div ref={titleRef} className="reveal mb-16 text-center">
@@ -47,7 +47,7 @@ export default function Concept() {
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 50vw"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A]/40 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
           </div>
 
           {/* Text */}

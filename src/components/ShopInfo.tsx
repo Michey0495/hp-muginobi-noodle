@@ -36,7 +36,7 @@ export default function ShopInfo() {
   }, []);
 
   return (
-    <section className="relative bg-[#0A0A0A] py-24 md:py-32">
+    <section className="relative bg-black py-24 md:py-32">
       <div className="max-w-4xl mx-auto px-6 md:px-12">
         {/* Section title */}
         <div ref={titleRef} className="reveal mb-16">
@@ -81,7 +81,7 @@ export default function ShopInfo() {
           <div ref={mapRef} className="reveal" style={{ transitionDelay: "0.2s" }}>
             <div className="aspect-square md:aspect-[4/5] w-full rounded-sm overflow-hidden border border-white/5">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2925.1!2d143.354!3d42.920!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f736c84e5555555%3A0x0!2z6bqm5Ly46ac844Gp44O844Gp44KL!5e0!3m2!1sja!2sjp!4v1"
+                src="https://maps.google.com/maps?q=%E5%8C%97%E6%B5%B7%E9%81%93%E5%B8%AF%E5%BA%83%E5%B8%82%E8%A5%BF%E4%B8%80%E6%9D%A1%E5%8D%9710-4+%E3%82%A2%E3%83%9D%E3%83%AD%E3%83%93%E3%83%AB&output=embed&hl=ja"
                 width="100%"
                 height="100%"
                 style={{ border: 0, filter: "invert(0.92) hue-rotate(180deg) saturate(0.2) brightness(0.7)" }}
